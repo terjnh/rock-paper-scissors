@@ -12,3 +12,8 @@
 - Test function is written in:
     - App.test.js
     - functions.test.js
+
+3. Frameworks / Languages used for this project
+- ReactJS (Jest for testing)
+- Javascript
+- HTML/CSS
