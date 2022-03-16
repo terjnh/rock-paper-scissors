@@ -18,14 +18,14 @@ function App() {
       setCom1Choice(computerOneChoice);
       setCom2Choice('N.A.')
       
-      if(selection===CONST.ROCK && computerOneChoice===CONST.SCISSORS
-        || selection===CONST.SCISSORS && computerOneChoice===CONST.PAPER
-        || selection===CONST.PAPER && computerOneChoice===CONST.ROCK) {
+      if((selection===CONST.ROCK && computerOneChoice===CONST.SCISSORS)
+        || (selection===CONST.SCISSORS && computerOneChoice===CONST.PAPER)
+        || (selection===CONST.PAPER && computerOneChoice===CONST.ROCK)) {
         setResult('Player Wins')
       }
-      else if(computerOneChoice===CONST.ROCK && selection===CONST.SCISSORS
-        || computerOneChoice===CONST.SCISSORS && selection===CONST.PAPER
-        || computerOneChoice===CONST.PAPER && selection===CONST.ROCK) {
+      else if((computerOneChoice===CONST.ROCK && selection===CONST.SCISSORS)
+        || (computerOneChoice===CONST.SCISSORS && selection===CONST.PAPER)
+        || (computerOneChoice===CONST.PAPER && selection===CONST.ROCK)) {
         setResult('Computer 1 Wins')
       }
       else {
@@ -40,14 +40,14 @@ function App() {
     setCom1Choice(computerOneChoice);
     setCom2Choice(computerTwoChoice);
 
-    if(computerOneChoice===CONST.ROCK && computerTwoChoice===CONST.SCISSORS
-      || computerOneChoice===CONST.SCISSORS && computerTwoChoice===CONST.PAPER
-      || computerOneChoice===CONST.PAPER && computerTwoChoice===CONST.ROCK) {
+    if((computerOneChoice===CONST.ROCK && computerTwoChoice===CONST.SCISSORS)
+      || (computerOneChoice===CONST.SCISSORS && computerTwoChoice===CONST.PAPER)
+      || (computerOneChoice===CONST.PAPER && computerTwoChoice===CONST.ROCK)) {
       setResult('Computer 1 Wins')
     }
-    else if(computerTwoChoice===CONST.ROCK && computerOneChoice===CONST.SCISSORS
-      || computerTwoChoice===CONST.SCISSORS && computerOneChoice===CONST.PAPER
-      || computerTwoChoice===CONST.PAPER && computerOneChoice===CONST.ROCK) {
+    else if((computerTwoChoice===CONST.ROCK && computerOneChoice===CONST.SCISSORS)
+      || (computerTwoChoice===CONST.SCISSORS && computerOneChoice===CONST.PAPER)
+      || (computerTwoChoice===CONST.PAPER && computerOneChoice===CONST.ROCK)) {
       setResult('Computer 2 Wins')
     }
     else {
