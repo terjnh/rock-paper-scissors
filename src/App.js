@@ -67,9 +67,9 @@ function App() {
             Rock, Paper, Scissors Game
           </h2>
 
-          <p>Player selection: <i>{playerChoice}</i></p>
-          <p>Computer 1 selection: <i>{com1Choice}</i></p>
-          <p>Computer 2 selection: <i>{com2Choice}</i></p>
+          <p className='player-text'>Player selection: <i>{playerChoice}</i></p>
+          <p className='com1-text'>Computer 1 selection: <i>{com1Choice}</i></p>
+          <p className='com2-text'>Computer 2 selection: <i>{com2Choice}</i></p>
           <p><b>Result: {result}</b></p>
 
           <div className="App-mainframe">
